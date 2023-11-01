@@ -1,0 +1,68 @@
+                                                                    Topic - 1 : DBMS 
+                                                                =======================
+
+
+What is Data?
+================
+    - It is a rawfact (i.e characters & numbers & symbol...etc)
+    - Data can not be predict.(no meaning)
+
+    Ex : 
+        SMITH       1021
+        WARNER      1022
+        MILLER      1023
+
+What is Information? 
+======================
+    - proccesing data is called as 'information'.
+    - is always provide meaningfull.
+
+    Ex: 
+        Employee_name       customer_id
+        ---------------     -------------
+        SMITH                1021
+        WARNER               1022
+        MILLER               1023
+
+
+What is Database?
+===================
+    - It is memory,which is used to store the collection of inter related data / information of a particular organization.
+
+What is Inter-related data/information.
+========================================
+    Ex: SBI Organization
+
+    DB name: SBI_DB 
+                > Branches details 
+                    > Dept details 
+                        > Emp Details 
+                            > Customers details 
+                                > ...etc 
+
+    Ex : 
+        no employees = no dept 
+        no dept = no employees
+
+        no products = no customers 
+        no customers = no products 
+
+
+Types of Databases 
+=======================
+ - There are two types of databases in real world 
+    1. OLTP(Online Transaction Processing)
+    2. OLAP(Online Analytical Processing)
+
+1.OLTP:
+========
+    - These databases are used for storing "day-to-day" transactional data/information. 
+    - For running business organizations.
+    - OLTP databases are supporting "live operations" (insert,update,delete)
+    - retrieving small data by using "select".
+
+Ex: oracle,sqlserver,mysql,db2,...etc. 
+
+
+What are Datastorage?
+======================
