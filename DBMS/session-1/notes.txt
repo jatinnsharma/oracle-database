@@ -1,5 +1,5 @@
-                                                                    Topic - 1 : DBMS 
-                                                                =======================
+                           Topic - 1 : DBMS 
+                       =======================
 
 
 What is Data?
@@ -43,7 +43,6 @@ What is Inter-related data/information.
     Ex : 
         no employees = no dept 
         no dept = no employees
-
         no products = no customers 
         no customers = no products 
 
@@ -64,5 +63,76 @@ Types of Databases
 Ex: oracle,sqlserver,mysql,db2,...etc. 
 
 
+session 2
+============
+
+2.OLAP: 
+=========
+    - These databases are used to stored "historical data"(big data).
+    -It can supporting "select" operation.
+    Ex:Datawarehouse
+
+user -> app -> JDBC(connect)->OLTP->etl(extract transfer loading)->OLAP
+                                   (Job Schedul) 
+                                    hours-wise
+                                    Day-wise 
+                                    Months-wise 
+
 What are Datastorage?
+=======================
+    - Datastorage is a place where we can store data/information.
+    - There are 3 types of datastorages: 
+        1) Papers & Books(Before computers)
+        2) Flatfiles (From computers)(ex:textfiles)
+        3) DBMS(s/w) 
+
+Flatfiles:
+===========
+    - Data can be stored in files(with help opearating System).
+
+
+Drawbacks:
+=============
+      i)    Data redundancy
+      ii)   Data inconsistency 
+      iii)  Data retrievel 
+      iv)   Data integrity 
+      v)    Data security 
+      vi)   Data Indexing 
+
+i) Data redundancy
 ======================
+    -  Data can be stored in multiple files.
+
+ii) Data inconsistency 
+=======================
+    - confusion data 
+    - It occure when we have duplicate data.
+        i.e no duplicates = no inconsistency 
+
+iii) Data retrieval: 
+======================
+    - If we want retrieval the required data from a faltfile then we 
+need to develop an application by using high level languages are 
+c,c++,java,.net...etc  
+
+
+iv) Data integrity 
+====================
+    - data validations.
+    Ename -> Jatin(string) but instead of adding(number) 1000
+    E_phone-> (9090909090)(10-number) only but you can add (11 number) also  
+
+
+v) Data security
+==================
+    - There no security file data.
+
+vi) Data Indexing: 
+=====================
+    - Files are not supporting data indexing mechanism 
+
+What is index? 
+===============
+    - To retrieving the required data from data storage as soon as possible 
+(fastly).
